@@ -1,0 +1,10 @@
+Hyunwoo Choi Resume (Placeholder)
+=================================
+
+This file is a temporary placeholder for resume download.
+Replace this file with your final PDF when ready:
+
+assets/resume/hyunwoo-choi-resume.pdf
+
+Then update the `resume.file` path in:
+assets/js/i18n.js

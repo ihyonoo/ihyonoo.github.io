@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hyunwoo Choi portfolio - projects, experience, awards, and contact."
+    />
+    <title>Hyunwoo Choi | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-one" aria-hidden="true"></div>
+    <div class="bg-orb orb-two" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">Hyunwoo Choi</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#skills" data-i18n="nav.skills">Skills</a>
+          <a href="#projects" data-i18n="nav.projects">Projects</a>
+          <a href="#awards" data-i18n="nav.awards">Awards</a>
+          <a href="#experience" data-i18n="nav.experience">Experience</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="lang-toggle" role="group" aria-label="Language toggle">
+          <button class="lang-btn is-active" type="button" data-lang="en">EN</button>
+          <button class="lang-btn" type="button" data-lang="ko">KO</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero reveal">
+        <div class="container">
+          <p class="hero-kicker" data-i18n="hero.kicker">Portfolio</p>
+          <h1 data-i18n="hero.name">Hyunwoo Choi</h1>
+          <p class="hero-subtitle" data-i18n="hero.tagline">
+            Building practical web experiences with clear UX and solid structure.
+          </p>
+          <div class="hero-actions">
+            <a
+              id="resume-link"
+              class="btn btn-primary"
+              href="assets/resume/hyunwoo-choi-resume.txt"
+              download
+              data-i18n="cta.resume"
+              >Download Resume</a
+            >
+            <a class="btn btn-secondary" href="#contact" data-i18n="cta.contact">Contact</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section reveal">
+        <div class="container">
+          <h2 data-i18n="section.about">About</h2>
+          <p class="section-lead" data-i18n="about.body">
+            I focus on shipping maintainable products with thoughtful UI and measurable outcomes.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <div class="container">
+          <h2 data-i18n="section.skills">Skills</h2>
+          <ul id="skills-list" class="chip-list"></ul>
+        </div>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="container">
+          <h2 data-i18n="section.projects">Projects</h2>
+          <div id="project-grid" class="project-grid"></div>
+        </div>
+      </section>
+
+      <section id="awards" class="section reveal">
+        <div class="container">
+          <h2 data-i18n="section.awards">Awards</h2>
+          <ul id="awards-list" class="stack-list"></ul>
+        </div>
+      </section>
+
+      <section id="experience" class="section reveal">
+        <div class="container">
+          <h2 data-i18n="section.experience">Experience</h2>
+          <div id="experience-list" class="stack-list"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section reveal">
+        <div class="container">
+          <h2 data-i18n="section.contact">Contact</h2>
+          <p class="section-lead" data-i18n="contact.intro">
+            Open to collaboration and product-focused opportunities.
+          </p>
+          <ul class="contact-list">
+            <li><a id="contact-email" href="mailto:contact@example.com"></a></li>
+            <li><a id="contact-github" href="https://github.com" target="_blank" rel="noreferrer"></a></li>
+            <li><a id="contact-linkedin" href="https://linkedin.com" target="_blank" rel="noreferrer"></a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small data-i18n="footer.copy">© 2026 Hyunwoo Choi. All rights reserved.</small>
+      </div>
+    </footer>
+
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
